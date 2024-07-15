@@ -4,3 +4,25 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: #a2ebfa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product{
+    width: 90%;
+    max-width: 750px;
+    display: flex;
+}
+.gallery{
+    flex-basis: 47%;
+    background: #241e20;
+}
+.gallery img{
+    width: 100%;
+    display: block;
+    padding-top: 100px;
+}
